@@ -17,7 +17,7 @@ class Pages extends BaseController
     public function property()
     {
         $data = [
-            'title' => 'Property | Dani Properties Dani - Consultant Property'
+            'title' => 'Property | Dani Properties - Consultant Property'
         ];
         echo view('layout/header', $data);
         echo view('pages/property');
