@@ -1,5 +1,8 @@
+ <?= $this->extend('layout/template'); ?>
+
+ <?= $this->section('content'); ?>
  <!-- ======= hero Section ======= -->
- <section id="hero">
+ <section id="hero" style="display: none;">
 
      <div class="hero-content" data-aos="fade-up">
          <h2>Consultant <span>Property</span><br>Tangerang Area</h2>
@@ -24,7 +27,7 @@
  <main id="main">
 
      <!-- ======= Team Section ======= -->
-     <section id="team">
+     <section id="team" style="display: none;">
          <div class="container" data-aos="fade-up">
              <div class="section-header">
                  <h2>Product yang kami tawarkan</h2>
@@ -123,14 +126,261 @@
      </section><!-- End About Section -->
 
      <!-- ======= Services Section ======= -->
-     <section id="services" style="display: none;">
+     <section id="services">
          <div class="container" data-aos="fade-up">
              <div class="section-header">
-                 <h2>Services</h2>
+                 <h2>Property BSD</h2>
                  <p>Sed tamen tempor magna labore dolore dolor sint tempor duis magna elit veniam aliqua esse amet veniam enim export quid quid veniam aliqua eram noster malis nulla duis fugiat culpa esse aute nulla ipsum velit export irure minim illum fore</p>
              </div>
 
-             <div class="row gy-4">
+             <div class="row">
+                 <div class="col-sm-12">
+                     <div class="row">
+                         <div class="col-md-6 mb-30 wow fadeInUp" style="margin-bottom: 30px;">
+                             <div class="box">
+                                 <div class="pic"><img src="../../assets/img/products/produk1.jpeg" style="width: 100%;" alt=""></div>
+                                 <div class="card" style="top: 1em;border:none">
+                                     <div style="text-align: center;">
+                                         <table style="width: 100%;">
+                                             <tbody>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top"><span>&nbsp;</span></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                         <p style="margin-top:2em;margin-left:0!important">Perumahan BSD memiliki akses yang dekat ke kawasan besar BSD City, Gading Serpong dan beragam pusat hiburan di Tangerang</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="col-md-6 mb-30 wow fadeInUp" style="margin-bottom: 30px;">
+                             <div class="box">
+                                 <div class="pic"><img src="../../assets/img/products/produk1.jpeg" style="width: 100%;" alt=""></div>
+                                 <div class="card" style="top: 1em;border:none">
+                                     <div style="text-align: center;">
+                                         <table style="width: 100%;">
+                                             <tbody>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top"><span>&nbsp;</span></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                         <p style="margin-top:2em;margin-left:0!important">Perumahan BSD memiliki akses yang dekat ke kawasan besar BSD City, Gading Serpong dan beragam pusat hiburan di Tangerang</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="col-md-6 mb-30 wow fadeInUp" style="margin-bottom: 30px;">
+                             <div class="box">
+                                 <div class="pic"><img src="../../assets/img/products/produk1.jpeg" style="width: 100%;" alt=""></div>
+                                 <div class="card" style="top: 1em;border:none">
+                                     <div style="text-align: center;">
+                                         <table style="width: 100%;">
+                                             <tbody>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top"><span>&nbsp;</span></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                         <p style="margin-top:2em;margin-left:0!important">Perumahan BSD memiliki akses yang dekat ke kawasan besar BSD City, Gading Serpong dan beragam pusat hiburan di Tangerang</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div class="col-md-6 mb-30 wow fadeInUp" style="margin-bottom: 30px;">
+                             <div class="box">
+                                 <div class="pic"><img src="../../assets/img/products/produk1.jpeg" style="width: 100%;" alt=""></div>
+                                 <div class="card" style="top: 1em;border:none">
+                                     <div style="text-align: center;">
+                                         <table style="width: 100%;">
+                                             <tbody>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top"><span>&nbsp;</span></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td colspan="7" valign="top" style="text-align:left;color:#081e5b;">
+                                                         <span style="font-weight: 800;">Type 36</span>
+                                                     </td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;width:100px;">Luas Tanah</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">72m<sup style="font-size:10px;">2</sup></td>
+                                                     <td valign="top" style="text-align:left;width:115px;">Luas Bangunan</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">36m<sup style="font-size:10px;">2</sup></td>
+                                                 </tr>
+                                                 <tr>
+                                                     <td valign="top" style="text-align:left;">Kamar Tidur</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">2</td>
+                                                     <td valign="top" style="text-align:left;">Kamar Mandi</td>
+                                                     <td valign="top">:</td>
+                                                     <td valign="top" style="text-align:left;">1</td>
+                                                 </tr>
+                                             </tbody>
+                                         </table>
+                                         <p style="margin-top:2em;margin-left:0!important">Perumahan BSD memiliki akses yang dekat ke kawasan besar BSD City, Gading Serpong dan beragam pusat hiburan di Tangerang</p>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+
+             <!-- <div class="row gy-4">
 
                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                      <div class="box">
@@ -164,7 +414,7 @@
                      </div>
                  </div>
 
-             </div>
+             </div> -->
 
          </div>
      </section><!-- End Services Section -->
@@ -481,3 +731,4 @@
      </section><!-- End Contact Section -->
 
  </main><!-- End #main -->
+ <?= $this->endSection(); ?>

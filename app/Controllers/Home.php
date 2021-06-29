@@ -6,8 +6,9 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		echo view('/layout/header');
-		echo view('/pages/home');
-		echo view('/layout/footer');
+		$data = [
+			'title' => 'Home | Dani Properties - Consultant Property'
+		];
+		echo view('/pages/home', $data);
 	}
 }

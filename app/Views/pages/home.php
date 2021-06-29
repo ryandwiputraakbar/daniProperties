@@ -1,3 +1,6 @@
+ <?= $this->extend('layout/template'); ?>
+
+ <?= $this->section('content'); ?>
  <!-- ======= hero Section ======= -->
  <section id="hero">
 
@@ -481,3 +484,4 @@
  	</section><!-- End Contact Section -->
 
  </main><!-- End #main -->
+ <?= $this->endSection(); ?>
